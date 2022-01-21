@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+    text-align: center;
+    color: #353535;
+}
+
+#title {
+    font-size: 4.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #353535;
+}
+
+.all-apis {
+    width: 500px;
+    margin: auto;
+}
+
+.my-api {
+    display: grid;
+    background-color: lightgrey;
+    grid-template: 4rem 1rem 7rem 3rem / repeat(3, calc(100% / 3));
+    border: solid 1px #252525;
+    border-radius: 1em;
+    margin: 2em;
+    padding: 2em;
+}
+
+.my-api-name {
+    grid-column: span 3;
+    grid-row: 1;
+    font-size: 2.1rem;
+    margin-top: 1em;
+    font-weight: bold;
+}
+.my-api-description {
+    grid-column: span 3;
+    grid-row: 3;
+    font-size: 1.25rem;
+    margin-top: 1.75em;
+}
+.my-api-auth {
+    grid-column: 1;
+    grid-row: 4;
+}
+.my-api-https {
+    grid-column: 3;
+    grid-row: 4;
+}
