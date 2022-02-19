@@ -21,8 +21,8 @@ function getAPIhtml(myAPI) {
         <div class='my-api'>
             <div class='my-api-name'><a href="${myAPI.Link}">${myAPI.API} (${myAPI.Category})</a></div>
             <div class='my-api-description'>${myAPI.Description}</div>
-            <div class='my-api-auth'>Auth: ${auth}</div>
-            <div class='my-api-https'>HTTPS: ${support}</div>
+            <div class='my-api-stats my-api-auth'>Auth: ${auth}</div>
+            <div class='my-api-stats my-api-https'>HTTPS: ${support}</div>
         </div>
     `
 }
