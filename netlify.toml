@@ -1,0 +1,5 @@
+[build]
+  publish = "api-of-apis"
+
+[build.environment]
+  NODE_VERSION = "22"
